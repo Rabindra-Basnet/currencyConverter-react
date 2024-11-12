@@ -5,7 +5,7 @@ function App() {
   const [amount, setAmount] = useState(Number(""));
   const [from, setFrom] = useState('usd');
   const [to, setTo] = useState('inr');
-  const [convertedAmount, setConvertedAmount] = useState(Number(""));
+  const [convertedAmount, setConvertedAmount] = useState(Number());
 
 
   const currencyInfo = useCurrencyInfo(from)
